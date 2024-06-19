@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dino Run with NEAT</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/neataptic/1.4.4/neataptic.js"></script>
+</head>
+<body>
+  <div id="game" class="game">
+    <div id="score" class="score">0</div>
+    <div id="stats" class="stats">
+      <div id="population">Population: 0</div>
+      <div id="generation">Generation: 0</div>
+      <div id="best-fitness">Best Fitness: 0</div>
+      <div id="current-neurons">Neurons: 0</div>
+      <div id="current-connections">Connections: 0</div>
+      <div id="current-hidden-layers">Hidden Layers: 0</div>
+    </div>
+    <img src="imgs/ground.png" class="ground">
+    <img src="imgs/ground.png" class="ground">
+    <div id="dinos"></div>
+  </div>
+  <!-- Área de visualização das ativações -->
+  <div id="activation-container" class="activation-container">
+    <h3>Ativações em Tempo Real</h3>
+    <div id="activation-table"></div>
+  </div>
+  <canvas id="network-canvas" width="300" height="300"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
