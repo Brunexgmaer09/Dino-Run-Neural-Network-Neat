@@ -267,7 +267,7 @@ function getDinoRect(dino) {
 /* ADICIONA CACTUS */
 const CACTUS_SPEED = 0.05;
 const CACTUS_INTERVAL_MIN = 3300;
-const CACTUS_INTERVAL_MAX = 15900;
+const CACTUS_INTERVAL_MAX = 11900;
 
 function setupCactus() {
   nextCactusTime = CACTUS_INTERVAL_MIN;
