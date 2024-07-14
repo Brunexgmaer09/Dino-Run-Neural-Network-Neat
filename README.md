@@ -1,6 +1,6 @@
 # Dino Run
 Remake do jogo do Dinossauro do Chrome, sugerido pela plataforma de estudos <a href="https://www.dio.me/">Dio._</a><br>
-Link do site: <a href="https://dino-run.pages.dev/">Dino Run</a>
+Link do site: <a href="https://dino-run.pages.dev](https://brunexgmaer09.github.io/Dino-Run-Neural-Network-Neat/">Dino Run</a>
 
 ## Screenshot
 
