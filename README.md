@@ -1,29 +1,55 @@
-# Dino Run
-Remake do jogo do Dinossauro do Chrome, sugerido pela plataforma de estudos <a href="https://www.dio.me/">Dio._</a><br>
-Link do site: <a href="https://dino-run.pages.dev](https://brunexgmaer09.github.io/Dino-Run-Neural-Network-Neat/">Dino Run</a>
+# Dino Run Neural Network
 
-## Screenshot
+Uma recriação do famoso jogo do dinossauro do Google Chrome, mas com uma twist: a Inteligência Artificial joga por você!
 
-![image](https://user-images.githubusercontent.com/84540148/162838119-7340e1f7-9437-4eac-aa6f-a4e5ea06b67c.png)
+## 🦖 Sobre o Projeto
 
+Este projeto é um remake do clássico jogo do dinossauro que aparece no Google Chrome quando você está offline. A diferença? Uma rede neural evolui e aprende a jogar o jogo por conta própria!
 
-## Meu processo
+### Características:
 
-### Funcionalidades adicionais
-- Telas de início e fim de jogo
-- Placar de pontos
+- 🧠 Implementação de rede neural usando o algoritmo NEAT
+- 🔄 Evolução da IA ao longo das gerações
+- 🎮 Interface gráfica similar ao jogo original
+- 📊 Visualização em tempo real do desempenho da IA
 
-### Construído com
-- Propriedades customizadas CSS
-- Event Listeners
-- getComputedStyle()
+## 🖼️ Screenshot
 
-### Adições planejadas
-- Efeitos sonoros para pulo e fim de jogo.
+![Dino Run Neural Network em ação](https://user-images.githubusercontent.com/84540148/162838119-7340e1f7-9437-4eac-aa6f-a4e5ea06b67c.png)
 
-## Referências
-- <a href="https://developer.mozilla.org/pt-BR/">MDN Web Docs</a>
-- <a href="https://www.youtube.com/watch?v=47eXVRJKdkU">Web Dev Simplified</a>
+## 🕹️ Jogue Agora!
 
+Você pode ver a IA em ação e acompanhar sua evolução acessando o link abaixo:
 
+[Jogar Dino Run Neural Network](https://brunexgmaer09.github.io/Dino-Run-Neural-Network-Neat/)
 
+## 🚀 Como Funciona
+
+1. A rede neural começa com comportamentos aleatórios
+2. Várias instâncias do jogo rodam simultaneamente
+3. As redes que obtêm as melhores pontuações são selecionadas
+4. Novas gerações são criadas a partir das melhores redes
+5. O processo se repete, com a IA melhorando a cada geração
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- JavaScript
+- CSS3
+- Biblioteca NEAT para implementação da rede neural
+
+## 🤔 Por que é Interessante?
+
+Este projeto demonstra de forma visual e interativa como as redes neurais podem aprender e se adaptar a tarefas específicas. É uma excelente introdução aos conceitos de aprendizado de máquina e evolução artificial.
+
+## 🙌 Contribuições
+
+Sinta-se à vontade para fazer um fork do projeto, abrir issues ou enviar pull requests. Toda contribuição é bem-vinda!
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Desenvolvido com 🧠 por [Brunex]
